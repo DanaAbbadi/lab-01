@@ -9,6 +9,8 @@
     header{
         height:100px ;
         width: 960px;
+        line-height: 100px; 
+
        
     }
     #container{
@@ -21,21 +23,21 @@
     
         height:600px ;
         width: 200px;
-    
+        line-height: 600px; 
     }
     
   
     .cd-div{
         height:200px ;
         width: 380px;
-    
+        line-height: 200px; 
         float: left;
     }
     
     .efgh-div{
         height:250px ;
         width: 190px;
-    
+        line-height: 250px; 
         float: left;
     
     
@@ -43,9 +45,8 @@
     
     #idiv{
         height:150px ;
-        width: 760px;
-       
-        overflow: auto;
+        width: 960px;
+        line-height: 150px; 
     }
     }
     @media screen and (min-width:480px) and (max-width:767px), (max-width:480px){
@@ -56,28 +57,37 @@
         header{
             width: 480px;
             height:75px ;
+            line-height: 75px; 
+
         
         }
         aside{
             width: 480px;
             height:150px ;
+            line-height: 150px; 
+
         }
         .cd-div{
             width: 480px;
             height:125px ;
+            line-height: 125px; 
+
        
         }
     
         .efgh-div{
             width: 240px;
             height:250px ;
-        
+            line-height: 250px; 
+
             float: left;
     
         }
         #idiv{
             width: 480px;
             height:80px;    
+            line-height: 80px; 
+
         }
     }
     
