@@ -1,19 +1,37 @@
 .cd-div, .efgh-div, #idiv{
     border: 1px solid black;
-    background-color: lightgray;
     text-align: center;
+    vertical-align: middle;
+
 }
 
 @media screen and (min-width:768px) and (max-width:960px),(min-width:961px) {
     .cd-cont, #all{
         overflow: auto;
-    
     }
+    .cd-div{
+        background-color: #f79694;
+    }
+    .efgh-div{
+        background-color: #f76b7f;
+    }
+    #idiv{
+        background-color: #8594a3;
+    }
+    
 }
 
 @media screen and (min-width:480px) and (max-width:767px), (max-width:480px){
     #idiv{
         overflow: auto;
-
+    }
+    .cd-div{
+        background-color: #f7b089;
+    }
+    .efgh-div{
+        background-color: #f68977;
+    }
+    #idiv{
+        background-color: #f66482;
     }
 }
